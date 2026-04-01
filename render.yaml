@@ -1,9 +1,0 @@
-services:
-  - type: web
-    name: pharmacy-backend
-    runtime: node
-    plan: free
-    buildCommand: npm ci --omit=dev
-    startCommand: npm start
-    healthCheckPath: /api/health
-    autoDeploy: true
